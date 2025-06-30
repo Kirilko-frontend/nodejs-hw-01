@@ -8,3 +8,5 @@ export const removeAllContacts = async () => {
     console.error('Ошибка при удалении контактов:', error.message);
   }
 };
+
+removeAllContacts();
